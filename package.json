@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-cli-demo",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": {
+    "my-pokemon": "src/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@inquirer/prompts": "^7.2.0",
+    "@types/node": "^22.10.2",
+    "terminal-image": "^3.0.0",
+    "typescript": "^5.7.2"
+  }
+}
